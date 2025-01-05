@@ -40,6 +40,15 @@ nav {
   justify-content: space-between;
 }
 
+.nav-content i:hover{
+  color: var(--primary-color-dark);
+}
+
+ .nav-content i{
+   color: var(--primary-color-dark);
+  transition: 0.3s;
+ }
+
 nav .logo a {
   font-size: 1.5rem;
   font-weight: 600;
@@ -48,7 +57,7 @@ nav .logo a {
 }
 
 nav .logo a:hover {
-  color: var(--primary-color);
+  color: var(--primary-color-dark);
 }
 
 nav .checkbox {
