@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>simple portfolio</title>
+    <title>Hillary | Web Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Hillary, a web developer showcasing projects and skills." />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -14,51 +15,47 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="overall-div">  
-      <nav>
-      <div class="nav-content">
-        <div class="logo"><a href="#">Hillary</a></div> 
-        <label for="check" class="checkbox">
-        <i class="fa-solid fa-bars"></i> 
-        </label>
-        <input type="checkbox" name="check" id="check"/>
+    <main>
+      <nav aria-label="Main navigation">
+        <div class="nav-content">
+          <div class="logo">
+            <a href="#">Hillary</a>
+          </div>
+          <label for="check" class="checkbox" aria-label="Open navigation menu">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <input type="checkbox" name="check" id="check" aria-label="Navigation menu toggle" />
+          <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#resume">resume</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
-        <ul>
-          <li><a href="#"></a>home</li>
-          <li><a href="#"></a>about</li>
-          <li><a href="#"></a>resume</li>
-          <li><a href="#"></a>portfolio</li>
-          <li><a href="#"></a>contact</li>
-        </ul>
-      </div>
-    </nav>
-    <section class="section">
-      <div class="section-container">
-        <div class="content">
-          <p class="subtitle">
-            Hello</p>
-          <h1 class="title">
-            I'm <span>Hillary<br>a</span>  web Developer
-          </h1>
-          <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dignissimos sapiente accusamus voluptate neque minima recusandae
-            consequatur repudiandae, accusantium saepe. Tempora iusto mollitia
-            aut accusantium corporis, nesciunt molestiae. Repudiandae recusandae
-            molestias fugit facere natus quas veritatis repellendus ex. Nulla,
-            tenetur nobis.
-          </p>
-          <div class="action-btns">
-            <button class="hire-me">Hire me</button>
-            <button class="portfolio">portfolio</button>
+      <section class="section" id="home">
+        <div class="section-container">
+          <div class="content">
+            <p class="subtitle">Hello</p>
+            <h1 class="title">
+              I'm <span>Hillary</span><br />a Web Developer
+            </h1>
+            <p class="description">
+              <!-- Replace with actual description -->
+              Experienced web developer with a passion for creating interactive and accessible digital experiences.
+            </p>
+            <div class="action-btns">
+              <button class="hire-me" type="button">Hire me</button>
+              <button class="portfolio" type="button">Portfolio</button>
+            </div>
+          </div>
+          <div class="image">
+            <img src="./images/Hillary.jpg" alt="Portrait of Hillary" />
           </div>
         </div>
-        <div class="image">
-          <img src="./images/Hillary.jpg" alt="Hillary/>
-        </div>
-      </div>
-      </div>
-
-    </section>
+      </section>
+    </main>
   </body>
 </html>
