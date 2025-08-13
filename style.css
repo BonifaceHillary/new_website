@@ -51,11 +51,11 @@ nav {
   justify-content: space-between;
 }
 
-.nav-content i:hover{
+.nav-content i:hover {
   color: var(--primary-color-dark);
 }
 
- .nav-content i{
+ .nav-content i {
    color: var(--primary-color-dark);
   transition: 0.3s;
  }
