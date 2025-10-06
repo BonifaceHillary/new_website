@@ -205,7 +205,6 @@ i{
 .image {
   display: grid;
   place-items: center;
-   /* height: 50px;  */
 }
 
 .image img {
