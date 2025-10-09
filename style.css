@@ -111,6 +111,7 @@ ul li a:hover {
 #icon {
   width: 30px;
   cursor: pointer;
+  display: none;
 }
 
 :root {
